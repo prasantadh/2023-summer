@@ -4,7 +4,7 @@
 docker compose build --no-cache && docker compose up
 ```
 
-Now you can point the browser up to 127.0.0.1:8000 to 
+Now you can point the browser up to `127.0.0.1:8000` to 
 use the application.
 
 ## Miscellaneous
