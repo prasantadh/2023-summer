@@ -16,12 +16,21 @@ by PHP itself, instead of the apache server.
 ```
 This will serve your application with current directory as web root.
 
+We recommend using apache for production but php server for development of this project.
+
 ## Debugging PHP
 // about turning on log data on apache2
 // about viewing log within the php server
 Tip: Some (configuration) changes will require restarting apache2 or the php server.
 If you have made the changes, try to confirm by restarting.
 
-## Session handling in PHP
+Tip: Use incognito mode or disable cache so that you are not seeing stale pages
+on your browser.
+
+Tip: If you are using docker, look into `--no-cache` option while you are building
+and testing.
+
+## Session Handling in PHP
+For details on this, view the implementation under `prasantadh` folder.
 
 
